@@ -7,11 +7,12 @@
 ## Обязательная задача 1
 Мы выгрузили JSON, который получили через API запрос к нашему сервису:
 ```
-    { "info" : "Sample JSON output from our service\t",
+#Исправленный вариант
+    { "info" : "Sample JSON output from our service\\t",
         "elements" :[
             { "name" : "first",
             "type" : "server",
-            "ip" : 7175 
+            "ip" : "71.75.22.42"
             },
             { "name" : "second",
             "type" : "proxy",
